@@ -12,6 +12,6 @@ fn main() {
     if rng.gen_bool(0.5) {
         count_characters("Hello world", 'o');
     } else {
-        count_characters("Hello world", 23);
+        count_characters("Hello world", 'e');
     }
 }
